@@ -15,7 +15,7 @@ cap = cv2.VideoCapture(0)
 
 last_press = 0
 cooldown = 0.1
-PINCH_THRESHOLD = 100
+PINCH_THRESHOLD = 50
 
 
 # ---------------- FLAPPY BIRD SETTINGS ----------------
@@ -26,7 +26,7 @@ gravity = 4
 jump_strength = -25
 
 pipes = []
-pipe_gap = 200
+pipe_gap = 250
 pipe_width = 80
 pipe_speed = 14
 
